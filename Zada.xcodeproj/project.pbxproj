@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8938469F280F56EA00045718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938469E280F56EA00045718 /* AppDelegate.swift */; };
+		893846A1280F56EA00045718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846A0280F56EA00045718 /* SceneDelegate.swift */; };
+		893846A3280F56EA00045718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846A2280F56EA00045718 /* ViewController.swift */; };
+		893846A6280F56EA00045718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893846A4280F56EA00045718 /* Main.storyboard */; };
+		893846A8280F56EC00045718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893846A7280F56EC00045718 /* Assets.xcassets */; };
+		893846AB280F56EC00045718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893846A9280F56EC00045718 /* LaunchScreen.storyboard */; };
+		893846B6280F56EC00045718 /* ZadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846B5280F56EC00045718 /* ZadaTests.swift */; };
+		893846C0280F56EC00045718 /* ZadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846BF280F56EC00045718 /* ZadaUITests.swift */; };
+		893846C2280F56EC00045718 /* ZadaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846C1280F56EC00045718 /* ZadaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893846B2280F56EC00045718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89384693280F56EA00045718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8938469A280F56EA00045718;
+			remoteInfo = Zada;
+		};
+		893846BC280F56EC00045718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89384693280F56EA00045718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8938469A280F56EA00045718;
+			remoteInfo = Zada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8938469B280F56EA00045718 /* Zada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8938469E280F56EA00045718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893846A0280F56EA00045718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		893846A2280F56EA00045718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		893846A5280F56EA00045718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893846A7280F56EC00045718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893846AA280F56EC00045718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893846AC280F56EC00045718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893846B1280F56EC00045718 /* ZadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893846B5280F56EC00045718 /* ZadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadaTests.swift; sourceTree = "<group>"; };
+		893846BB280F56EC00045718 /* ZadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893846BF280F56EC00045718 /* ZadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadaUITests.swift; sourceTree = "<group>"; };
+		893846C1280F56EC00045718 /* ZadaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89384698280F56EA00045718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846AE280F56EC00045718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846B8280F56EC00045718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89384692280F56EA00045718 = {
+			isa = PBXGroup;
+			children = (
+				8938469D280F56EA00045718 /* Zada */,
+				893846B4280F56EC00045718 /* ZadaTests */,
+				893846BE280F56EC00045718 /* ZadaUITests */,
+				8938469C280F56EA00045718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8938469C280F56EA00045718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8938469B280F56EA00045718 /* Zada.app */,
+				893846B1280F56EC00045718 /* ZadaTests.xctest */,
+				893846BB280F56EC00045718 /* ZadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8938469D280F56EA00045718 /* Zada */ = {
+			isa = PBXGroup;
+			children = (
+				8938469E280F56EA00045718 /* AppDelegate.swift */,
+				893846A0280F56EA00045718 /* SceneDelegate.swift */,
+				893846A2280F56EA00045718 /* ViewController.swift */,
+				893846A4280F56EA00045718 /* Main.storyboard */,
+				893846A7280F56EC00045718 /* Assets.xcassets */,
+				893846A9280F56EC00045718 /* LaunchScreen.storyboard */,
+				893846AC280F56EC00045718 /* Info.plist */,
+			);
+			path = Zada;
+			sourceTree = "<group>";
+		};
+		893846B4280F56EC00045718 /* ZadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				893846B5280F56EC00045718 /* ZadaTests.swift */,
+			);
+			path = ZadaTests;
+			sourceTree = "<group>";
+		};
+		893846BE280F56EC00045718 /* ZadaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				893846BF280F56EC00045718 /* ZadaUITests.swift */,
+				893846C1280F56EC00045718 /* ZadaUITestsLaunchTests.swift */,
+			);
+			path = ZadaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8938469A280F56EA00045718 /* Zada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893846C5280F56EC00045718 /* Build configuration list for PBXNativeTarget "Zada" */;
+			buildPhases = (
+				89384697280F56EA00045718 /* Sources */,
+				89384698280F56EA00045718 /* Frameworks */,
+				89384699280F56EA00045718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zada;
+			productName = Zada;
+			productReference = 8938469B280F56EA00045718 /* Zada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893846B0280F56EC00045718 /* ZadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893846C8280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaTests" */;
+			buildPhases = (
+				893846AD280F56EC00045718 /* Sources */,
+				893846AE280F56EC00045718 /* Frameworks */,
+				893846AF280F56EC00045718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893846B3280F56EC00045718 /* PBXTargetDependency */,
+			);
+			name = ZadaTests;
+			productName = ZadaTests;
+			productReference = 893846B1280F56EC00045718 /* ZadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		893846BA280F56EC00045718 /* ZadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893846CB280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaUITests" */;
+			buildPhases = (
+				893846B7280F56EC00045718 /* Sources */,
+				893846B8280F56EC00045718 /* Frameworks */,
+				893846B9280F56EC00045718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893846BD280F56EC00045718 /* PBXTargetDependency */,
+			);
+			name = ZadaUITests;
+			productName = ZadaUITests;
+			productReference = 893846BB280F56EC00045718 /* ZadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89384693280F56EA00045718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					8938469A280F56EA00045718 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					893846B0280F56EC00045718 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8938469A280F56EA00045718;
+					};
+					893846BA280F56EC00045718 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8938469A280F56EA00045718;
+					};
+				};
+			};
+			buildConfigurationList = 89384696280F56EA00045718 /* Build configuration list for PBXProject "Zada" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89384692280F56EA00045718;
+			productRefGroup = 8938469C280F56EA00045718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8938469A280F56EA00045718 /* Zada */,
+				893846B0280F56EC00045718 /* ZadaTests */,
+				893846BA280F56EC00045718 /* ZadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89384699280F56EA00045718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893846AB280F56EC00045718 /* LaunchScreen.storyboard in Resources */,
+				893846A8280F56EC00045718 /* Assets.xcassets in Resources */,
+				893846A6280F56EA00045718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846AF280F56EC00045718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846B9280F56EC00045718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89384697280F56EA00045718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893846A3280F56EA00045718 /* ViewController.swift in Sources */,
+				8938469F280F56EA00045718 /* AppDelegate.swift in Sources */,
+				893846A1280F56EA00045718 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846AD280F56EC00045718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893846B6280F56EC00045718 /* ZadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893846B7280F56EC00045718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893846C2280F56EC00045718 /* ZadaUITestsLaunchTests.swift in Sources */,
+				893846C0280F56EC00045718 /* ZadaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893846B3280F56EC00045718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8938469A280F56EA00045718 /* Zada */;
+			targetProxy = 893846B2280F56EC00045718 /* PBXContainerItemProxy */;
+		};
+		893846BD280F56EC00045718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8938469A280F56EA00045718 /* Zada */;
+			targetProxy = 893846BC280F56EC00045718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893846A4280F56EA00045718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893846A5280F56EA00045718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893846A9280F56EC00045718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893846AA280F56EC00045718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893846C3280F56EC00045718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893846C4280F56EC00045718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893846C6280F56EC00045718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.Zada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893846C7280F56EC00045718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zada/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.Zada;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		893846C9280F56EC00045718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.ZadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zada.app/Zada";
+			};
+			name = Debug;
+		};
+		893846CA280F56EC00045718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.ZadaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zada.app/Zada";
+			};
+			name = Release;
+		};
+		893846CC280F56EC00045718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.ZadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zada;
+			};
+			name = Debug;
+		};
+		893846CD280F56EC00045718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cjhester.cha3.ZadaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zada;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89384696280F56EA00045718 /* Build configuration list for PBXProject "Zada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893846C3280F56EC00045718 /* Debug */,
+				893846C4280F56EC00045718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893846C5280F56EC00045718 /* Build configuration list for PBXNativeTarget "Zada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893846C6280F56EC00045718 /* Debug */,
+				893846C7280F56EC00045718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893846C8280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893846C9280F56EC00045718 /* Debug */,
+				893846CA280F56EC00045718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893846CB280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893846CC280F56EC00045718 /* Debug */,
+				893846CD280F56EC00045718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89384693280F56EA00045718 /* Project object */;
+}
