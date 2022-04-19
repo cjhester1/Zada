@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04422E51C1A16466E77E28B6 /* Pods_ZadaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6187877512A6E0545EA987BA /* Pods_ZadaTests.framework */; };
+		63163FE90DADD9DC5ADDA913 /* Pods_Zada_ZadaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F7B23B7C8A458A809BBAB1 /* Pods_Zada_ZadaUITests.framework */; };
 		8938469F280F56EA00045718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8938469E280F56EA00045718 /* AppDelegate.swift */; };
 		893846A1280F56EA00045718 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846A0280F56EA00045718 /* SceneDelegate.swift */; };
 		893846A3280F56EA00045718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846A2280F56EA00045718 /* ViewController.swift */; };
@@ -16,6 +18,13 @@
 		893846B6280F56EC00045718 /* ZadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846B5280F56EC00045718 /* ZadaTests.swift */; };
 		893846C0280F56EC00045718 /* ZadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846BF280F56EC00045718 /* ZadaUITests.swift */; };
 		893846C2280F56EC00045718 /* ZadaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846C1280F56EC00045718 /* ZadaUITestsLaunchTests.swift */; };
+		893846D7280F57B700045718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893846D6280F57B700045718 /* GoogleService-Info.plist */; };
+		893846D8280F57B700045718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893846D6280F57B700045718 /* GoogleService-Info.plist */; };
+		893846D9280F57B700045718 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893846D6280F57B700045718 /* GoogleService-Info.plist */; };
+		893846DF280F60BE00045718 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846DE280F60BE00045718 /* ProfileViewController.swift */; };
+		893846E0280F60BE00045718 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846DE280F60BE00045718 /* ProfileViewController.swift */; };
+		893846E1280F60BE00045718 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893846DE280F60BE00045718 /* ProfileViewController.swift */; };
+		C7976D4FDB70838E37123259 /* Pods_Zada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91BC31B67C6C4A50381F0AF /* Pods_Zada.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C0FC19F461E91B22311E623 /* Pods-ZadaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZadaTests.debug.xcconfig"; path = "Target Support Files/Pods-ZadaTests/Pods-ZadaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C1844B7F64F1246B8A84E61 /* Pods-ZadaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZadaTests.release.xcconfig"; path = "Target Support Files/Pods-ZadaTests/Pods-ZadaTests.release.xcconfig"; sourceTree = "<group>"; };
+		6187877512A6E0545EA987BA /* Pods_ZadaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZadaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B7FE771984EAE76A6685C8E /* Pods-Zada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zada.debug.xcconfig"; path = "Target Support Files/Pods-Zada/Pods-Zada.debug.xcconfig"; sourceTree = "<group>"; };
 		8938469B280F56EA00045718 /* Zada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8938469E280F56EA00045718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		893846A0280F56EA00045718 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,13 @@
 		893846BB280F56EC00045718 /* ZadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		893846BF280F56EC00045718 /* ZadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadaUITests.swift; sourceTree = "<group>"; };
 		893846C1280F56EC00045718 /* ZadaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZadaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		893846D6280F57B700045718 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		893846DE280F60BE00045718 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		99E5A659EA7C564CBA87881E /* Pods-Zada-ZadaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zada-ZadaUITests.release.xcconfig"; path = "Target Support Files/Pods-Zada-ZadaUITests/Pods-Zada-ZadaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D71BAC7F07A5BF8053CD7EF2 /* Pods-Zada-ZadaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zada-ZadaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zada-ZadaUITests/Pods-Zada-ZadaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8FED1E554EA74F5BB1FDD2E /* Pods-Zada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zada.release.xcconfig"; path = "Target Support Files/Pods-Zada/Pods-Zada.release.xcconfig"; sourceTree = "<group>"; };
+		D91BC31B67C6C4A50381F0AF /* Pods_Zada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F7B23B7C8A458A809BBAB1 /* Pods_Zada_ZadaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zada_ZadaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7976D4FDB70838E37123259 /* Pods_Zada.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04422E51C1A16466E77E28B6 /* Pods_ZadaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63163FE90DADD9DC5ADDA913 /* Pods_Zada_ZadaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7854335FAFA35231FB524820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91BC31B67C6C4A50381F0AF /* Pods_Zada.framework */,
+				E9F7B23B7C8A458A809BBAB1 /* Pods_Zada_ZadaUITests.framework */,
+				6187877512A6E0545EA987BA /* Pods_ZadaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89384692280F56EA00045718 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				893846B4280F56EC00045718 /* ZadaTests */,
 				893846BE280F56EC00045718 /* ZadaUITests */,
 				8938469C280F56EA00045718 /* Products */,
+				D328FF480C122936614C5365 /* Pods */,
+				7854335FAFA35231FB524820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +138,10 @@
 				893846A0280F56EA00045718 /* SceneDelegate.swift */,
 				893846A2280F56EA00045718 /* ViewController.swift */,
 				893846A4280F56EA00045718 /* Main.storyboard */,
+				893846DE280F60BE00045718 /* ProfileViewController.swift */,
 				893846A7280F56EC00045718 /* Assets.xcassets */,
 				893846A9280F56EC00045718 /* LaunchScreen.storyboard */,
+				893846D6280F57B700045718 /* GoogleService-Info.plist */,
 				893846AC280F56EC00045718 /* Info.plist */,
 			);
 			path = Zada;
@@ -127,6 +164,19 @@
 			path = ZadaUITests;
 			sourceTree = "<group>";
 		};
+		D328FF480C122936614C5365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7FE771984EAE76A6685C8E /* Pods-Zada.debug.xcconfig */,
+				D8FED1E554EA74F5BB1FDD2E /* Pods-Zada.release.xcconfig */,
+				D71BAC7F07A5BF8053CD7EF2 /* Pods-Zada-ZadaUITests.debug.xcconfig */,
+				99E5A659EA7C564CBA87881E /* Pods-Zada-ZadaUITests.release.xcconfig */,
+				3C0FC19F461E91B22311E623 /* Pods-ZadaTests.debug.xcconfig */,
+				5C1844B7F64F1246B8A84E61 /* Pods-ZadaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 893846C5280F56EC00045718 /* Build configuration list for PBXNativeTarget "Zada" */;
 			buildPhases = (
+				7DD1A7E06FB770884C6D5376 /* [CP] Check Pods Manifest.lock */,
 				89384697280F56EA00045718 /* Sources */,
 				89384698280F56EA00045718 /* Frameworks */,
 				89384699280F56EA00045718 /* Resources */,
+				165F2B9CF1C12061A6B56D6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 893846C8280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaTests" */;
 			buildPhases = (
+				DC6CD04EF59C966BC4BCEF32 /* [CP] Check Pods Manifest.lock */,
 				893846AD280F56EC00045718 /* Sources */,
 				893846AE280F56EC00045718 /* Frameworks */,
 				893846AF280F56EC00045718 /* Resources */,
@@ -169,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 893846CB280F56EC00045718 /* Build configuration list for PBXNativeTarget "ZadaUITests" */;
 			buildPhases = (
+				5C40C02FECCE591F539122AB /* [CP] Check Pods Manifest.lock */,
 				893846B7280F56EC00045718 /* Sources */,
 				893846B8280F56EC00045718 /* Frameworks */,
 				893846B9280F56EC00045718 /* Resources */,
+				34077F029C9C293D2812599D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				893846AB280F56EC00045718 /* LaunchScreen.storyboard in Resources */,
+				893846D7280F57B700045718 /* GoogleService-Info.plist in Resources */,
 				893846A8280F56EC00045718 /* Assets.xcassets in Resources */,
 				893846A6280F56EA00045718 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893846D8280F57B700045718 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +305,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893846D9280F57B700045718 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165F2B9CF1C12061A6B56D6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zada/Pods-Zada-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zada/Pods-Zada-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zada/Pods-Zada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34077F029C9C293D2812599D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zada-ZadaUITests/Pods-Zada-ZadaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zada-ZadaUITests/Pods-Zada-ZadaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zada-ZadaUITests/Pods-Zada-ZadaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C40C02FECCE591F539122AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zada-ZadaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD1A7E06FB770884C6D5376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6CD04EF59C966BC4BCEF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZadaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89384697280F56EA00045718 /* Sources */ = {
@@ -260,6 +421,7 @@
 			files = (
 				893846A3280F56EA00045718 /* ViewController.swift in Sources */,
 				8938469F280F56EA00045718 /* AppDelegate.swift in Sources */,
+				893846DF280F60BE00045718 /* ProfileViewController.swift in Sources */,
 				893846A1280F56EA00045718 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893846E0280F60BE00045718 /* ProfileViewController.swift in Sources */,
 				893846B6280F56EC00045718 /* ZadaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				893846E1280F60BE00045718 /* ProfileViewController.swift in Sources */,
 				893846C2280F56EC00045718 /* ZadaUITestsLaunchTests.swift in Sources */,
 				893846C0280F56EC00045718 /* ZadaUITests.swift in Sources */,
 			);
@@ -432,6 +596,7 @@
 		};
 		893846C6280F56EC00045718 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7FE771984EAE76A6685C8E /* Pods-Zada.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +624,7 @@
 		};
 		893846C7280F56EC00045718 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8FED1E554EA74F5BB1FDD2E /* Pods-Zada.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +652,7 @@
 		};
 		893846C9280F56EC00045718 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0FC19F461E91B22311E623 /* Pods-ZadaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +672,7 @@
 		};
 		893846CA280F56EC00045718 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1844B7F64F1246B8A84E61 /* Pods-ZadaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +692,7 @@
 		};
 		893846CC280F56EC00045718 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D71BAC7F07A5BF8053CD7EF2 /* Pods-Zada-ZadaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +710,7 @@
 		};
 		893846CD280F56EC00045718 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E5A659EA7C564CBA87881E /* Pods-Zada-ZadaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
